@@ -5,7 +5,7 @@
 docker compose -f docker-compose-kestra.yaml up -d
 ```
 
-Open Kestra UI at http://localhost:8081
+Open Kestra UI at http://localhost:8080
 
 # Flow
 - taxi_flow.yaml
