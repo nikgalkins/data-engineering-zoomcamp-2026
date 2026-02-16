@@ -207,3 +207,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# dbt
+dbt_packages/
+logs/
+target/
+
+# Mac/Windows noise
+.DS_Store
+Thumbs.db
+
+data/*
+!data/.gitkeep
+
+module_04_analytics_engineering/taxi_rides_ny_custom/
