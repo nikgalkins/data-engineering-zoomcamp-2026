@@ -226,3 +226,5 @@ logs/runs
 logs/*.log
 *.py[cod]local.duckdb
 *.duckdb
+
+*.py[cod]module_05_data_platforms/pipeline_old/
