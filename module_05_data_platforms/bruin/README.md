@@ -20,6 +20,10 @@ Notes:
 - Output DB: local.duckdb (ignored by git)
 - Layers: ingestion → staging → reports
 
+---
+
+## Original tutorial
+
 This hands-on tutorial guides you through building a **complete NYC Taxi data pipeline** from scratch using Bruin - a unified CLI tool for data ingestion, transformation, orchestration, and governance.
 
 Checkout our [Zoomcamp Project Prize](https://getbruin.com/zoomcamp-project) to learn more about how you can win a free Claude subscription service.
