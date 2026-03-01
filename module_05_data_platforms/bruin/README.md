@@ -1,5 +1,25 @@
 # Overview - End-to-End Data Platform
 
+## My HW5 run (DuckDB)
+
+Pipeline path:
+- `module_05_data_platforms/bruin/pipeline/pipeline.yml`
+
+Commands:
+```bash
+bruin validate module_05_data_platforms/bruin/pipeline/pipeline.yml
+bruin run module_05_data_platforms/bruin/pipeline/pipeline.yml --full-refresh
+bruin query --connection duckdb-default --query "select count(*) as n from ingestion.trips"
+bruin query --connection duckdb-default --query "select count(*) as n from staging.trips"
+bruin query --connection duckdb-default --query "select * from reports.trips_report order by trips desc limit 10"
+```
+
+Notes:
+
+- Source: NYC TLC parquet files (public endpoint)
+- Output DB: local.duckdb (ignored by git)
+- Layers: ingestion → staging → reports
+
 This hands-on tutorial guides you through building a **complete NYC Taxi data pipeline** from scratch using Bruin - a unified CLI tool for data ingestion, transformation, orchestration, and governance.
 
 Checkout our [Zoomcamp Project Prize](https://getbruin.com/zoomcamp-project) to learn more about how you can win a free Claude subscription service.

@@ -228,3 +228,6 @@ logs/*.log
 *.duckdb
 
 *.py[cod]module_05_data_platforms/pipeline_old/
+
+*.py[cod]
+logs/queriesmodule_05_data_platforms/bruin/_old_flat/
