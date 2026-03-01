@@ -221,3 +221,8 @@ data/*
 !data/.gitkeep
 
 module_04_analytics_engineering/taxi_rides_ny_custom/
+.bruin.yml
+logs/runs
+logs/*.log
+*.py[cod]local.duckdb
+*.duckdb

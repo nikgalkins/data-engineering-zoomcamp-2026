@@ -1,1 +1,4 @@
 name: hw5_pipeline
+
+default_connections:
+  duckdb: "duckdb-default"
