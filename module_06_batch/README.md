@@ -72,4 +72,3 @@ While running Spark in GitHub Codespaces, I had to use Java 17 to avoid Spark st
 ## Author
 
 Repository owner: Nikita Galkin
-EOF
