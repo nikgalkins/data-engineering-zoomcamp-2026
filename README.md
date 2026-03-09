@@ -5,3 +5,4 @@
 - Module 03 — Data warehouse: `module_03_data_warehouse/`
 - Module 04 — Analytics engineering: `module_04_analytics_engineering/`
 - Module 05 — Data platforms (Bruin): `module_05_data_platforms/`
+- Module 06 — Batch processing: `module_06_batch/`
